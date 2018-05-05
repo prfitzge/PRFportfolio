@@ -1,0 +1,138 @@
+<!-- The code contained in this pen generates a portfolio page for Parker Fitzgerald -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>-->
+
+<head>
+  <!--Information to include bootstrap into the file so the design is consistent-->  
+  <title>PRF Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+	
+    <!--code for banner across the top-->
+    <div class="banner">
+        <div class="banner-content">
+            <div class="grid-banner"> <!--grid -->
+            <div>
+                <h2>prf</h2>
+            </div>
+                <div></div>
+                <div>
+                    <button id="#aboutButton" class="button"><a href="#about" style="color: white;">About</a></button>
+                </div>
+                <div>
+                    <button id="#portfolioButton" class="button"><a href="#portfolio" style="color: white;">Portfolio</a></button>
+                </div>
+                <div>
+                    <button id="#contactButton" class="button"><a href="#contactMe" style="color: white;">Contact</a></button>
+                </div>
+        </div> <!--close grid-->
+    </div>
+    </div>
+    
+    <div class="page-container">
+        
+        <div class="column-left">
+        </div>
+        
+        <div> <!--opening of page-container div for the middle column-->
+    <!--start of the intro section-->
+        <div id="about" class="grid-container intro-style">
+            <div>
+                <p class="header-text">A skilled, creative problem solver with expert people skills<br/><br/>An aspiring front-end developer with an industrial engineering background</p>
+            </div>
+            <div>
+                <img class="circle-photo" width= 50% src="https://instagram.fmkc1-1.fna.fbcdn.net/vp/eec369acbb1cc125abbd7751fac1be9e/5B55EDAB/t51.2885-15/e35/27892780_1762666544042022_4500446339691184128_n.jpg"></img>
+            
+    <h3 class="text-center header-text name-spacing">Parker Rieff Fitzgerald</h3>
+            </div>
+    </div>
+    <!--end of the intro section-->
+    
+    <!--start of the body-->
+    <div id="portfolio" class="body-style">
+        <h3 class="text-center"> Portfolio </h3>
+        <h2 class="divider-line"></h2>
+        
+        <div class="container">	
+            <div><a href="https://www.dropbox.com/sh/8ncfwkf65vj3j52/AACJUc8hTv9lyyyYUk8BpK4La?dl=0" target="_blank" style="color: #888888;"> <img class= "portfolio-images" align="middle" src="http://www.anad.org/wp-content/uploads/2017/10/University-of-arkansas-.png"></a>
+            </div>
+            <div> 
+                <a href="http://scholarworks.uark.edu/ineguht/50/" target="_blank" style="color: #888888;"> <img class= "portfolio-images" align="middle" src="https://i.pinimg.com/originals/27/f1/4f/27f14f80c5515075c9d8d9e7caf1f78e.jpg"> </img></a>
+            </div>
+            <div>
+                <a href="./Resume_Fitzgerald.pdf" target="_blank" style="color: #888888;"><img class= "portfolio-images" align="middle" src="https://fthmb.tqn.com/EHBoCAX3XytWYfC7Qt3rKaqhIWU=/400x0/filters:no_upscale():max_bytes(150000):strip_icc()/iStock_000020639036_Medium-56b097f83df78cf772cfe8cb.jpg"></img></a>
+            </div>
+        </div>
+        
+    </div>
+    <!--end of the body-->
+            
+    <!--contact section-->
+    <div id="contactMe" class="contact-box">
+                <div>
+                <h3 class="contact-me text-center">Contact Me</h3>
+                <h2 class="divider-line" style="border-color: white;"</h2>
+                </div>
+            
+        <div class="grid-container">
+            <div>
+                        <form action="/submit information">
+                        <div class="row" style="padding-left: 5%; padding-right: 2px; padding-bottom: 2px;">
+    
+                                <input type="text" placeholder="First Name" style="width: 60%;">
+                        </div>
+                            <div class="row" style="padding-left: 5%; padding-right: 2px; padding-bottom: 2px;">
+                                <input type="text" placeholder="Last Name" style="width: 60%;">							
+                            </div>
+                            <div class="row" style="padding-left: 5%; padding-right: 2px; padding-bottom: 2px;">
+                                <input type="text" placeholder="Email Address" style="width: 60%;">
+                            </div>
+                            <div class="row" style="padding-left: 5%; padding-right: 2px; padding-bottom: 5px;">
+                                <input type="text" placeholder="Phone Number" style="width: 60%;">
+                        </div>
+                            <div class="row" style="padding-left: 5%; padding-right: 2px; padding-bottom: 2px;">
+                                <button class="button" type"submit">Submit</button>
+                            </div>
+                        </form>						
+            </div>
+            
+            <div>
+                            <p class="message text-left">Want to get in touch? I'd love to hear from you.<br/>If you leave me your information, I'll get in touch as soon as I can.<br/>Have a nice day.</p>
+            </div>
+    </div>
+    
+    <!--links to external pages-->
+                <div class="col-lg-12 name-spacing text-center">
+                    <a href="https://twitter.com/Parker_fitz" target="_blank"><img class="image-logo button2" src="https://seeklogo.com/images/T/twitter-2012-negative-logo-5C6C1F1521-seeklogo.com.png"></img></a>
+                    <a href="https://www.linkedin.com/in/parker-fitzgerald-b5856b106/" target="_blank"><img class="image-logo button2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAZlBMVEX///8Al9MAlNJ0veIAktFtuuGn0esAj9Ds9vsAm9X1+/0Ak9Kj0esAmdSk0usAjtB/weTC3vDK5fTe7/jj9PpJqtuZzOmHxOVmtt/R6PW63fDc7ve/3PBes94wpNgan9ex2O5Urtye/wbNAAADsklEQVR4nO2dbXebIBhAFckwmiyJJuZteen//5OLXbNGiKbbURB676eeQtPc8yDiA0IUAQAAAAAAAAAAAAAAAAAAAAAAAAAAwFfIVtUyscOyWmXW/cqdkDIXdsilErvSruBWidguQm1tCm6kZb8aubEomDsQvIXRmuLSRQRrpKWGWipHgnGs1lYMT7Y7mU/yxIZg5qqNvivauC8eXBqqwoJh5a6R3vqamQXDxKVhvrRgOHFpKCYYYoghhhhiiCGGdgzr3FHIhlKcd8npMlCmyr1hHs/+PMGVySCZAOeG8vRZr5wOEEbXhrLx/9N5eIaXZs0BUlaODdVeq9r/w7JbQ3HWqx57D6Jjw8qo2/uV6NZQmnmwt76bqVtD4zIcYIQ3uhjuAjO8GnXPYRmKk141630WzvH9UOqTCj97nwBwbGj8+779nBvG6tqs2f9UsWvDWB0eKiYDTFI5N4xVcr8W9+chZuHcG8b5YnItilV1HuYhfwSGty8hpZJDZWpGYTgoGGJo3VAIJeP5fB7Xl64PhkI1aSv4+ASpNlWR1reXLC1mb/ILkq5HbUnWYC0aBWm6Xqdp/dN7/kbElTaOPWxe3mJcj7x/aFWn94Kfzd/XI/JF8mTxz/7yYpjgkaFoWfqz7U5eeWOo4tYleFWnoi+GM5l2fH5XQ/XFsDJzVg9cAjDsiOCNoqOd+mL4gk3HHXeshv+2orBjfWcghlHwMexIJIdieG1tpr4Zpvv902619M/wWV9aJvFCqUU+eSIZRCutFh+fk6uVUdg63zFaQzOGj8NP8z2R9rmRsRoaMTwuHr/2m168bcuW+2PYnBw2gjhr62q8MUybBkZ56+3CG0NtXCZ23eUeGurv3ejrVH55b6gvJZpq5f4bGgNPLSvlv6HxBBicoTFm0QxX3hvqqRgRnOFU+0sMMewXDJ+IfENDfWVteIbEMHzDwjtDPU8TnqEeQ+OLe2+oxzA8w2BjeH+ECLen+X/DtmlgDHuhD8NXYxr/DPW+NHzD8Frp94vhK8M9hoPSh6GxsMsTQ5Fk6SPrvwXLZkGqT4Dmx2b5WGfX6lctGrwuuKOVj3WlggUwxBBDDDHEEEMMMcQQQwwxHI2h0/28hY2N9Z3uyf5kP7H+cbqvvjTfXOgfp2cjGNsYDYLD8y2MBeHD4PKMEktHIgV/zkwUnUM/KyjKBtkh6RU2z3u6NdTQz+yKouNJSGHx3LXc9rlrN7KDzbPzrOsBAAAAAAAAAAAAAAAAAAAAAAAAAAB4ym+qzFnaHH+TvwAAAABJRU5ErkJggg=="></img></a>
+                    <a href="https://codepen.io/prfitzge/" target="_blank"><img class="image-logo button2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAAA4ODhCQkJhYWFmZmYMDAwYGBj09PTv7+/8/Py7u7vZ2dmrq6vs7OxPT0/FxcWLi4sTExNvb2/S0tJcXFypqakoKCgjIyN2dnaHh4fV1dVMTEze3t58fHxSUlIxMTGTk5PBwcElJSUdHR2bm5s0NDSlpl1SAAAIRElEQVR4nO2d61bjOgyFFU4LFEq5DzDchuHy/o94BgylbaxtyZbry2L/YyW02fkqR5Zjm+hHP9Jo9jqdnP/aL30Z+fQ0OD2VvpBMuv8zfOnPfemLyaGnYVX9YVwB2CfGp2GsnjCOAPaG8dTrrx+MDECntw4w+iKwJ4wQYA/RGALYOsb7K5HBdjHKALaLcS4F2CpGDcAWMd4/qw0Ow1VDGPUA28IobkJbxchnoX1gnIeTGKzaG1Ue4OXb2p87l01iBBF4RDtrf/9HvxrEyAM8ntHIIS3uGsMIuhFH78dHDqkxjBggeR3SjMd4WtKMRyGA5HfYDsYn9jofZ1/n+B22EY2gG3H0fRbjsAWMwQh0Yh3WjlEGkJBDhLF8psoDvJutn4kcIoxlG1UxQAo4JDriMc63Y8YnOUAKOqwxGufXcoAUdoii8bkIRtCELnznhx3WFY1KgCRyWBNGVQQ6iRzWglHThC4lc1hHo8oDfOQAktwhLY4LY4wCSAqHEOMWUpw4gKRySLNyGGMBks5hOYy/2e89Dr7KpXNYpvufAJDUDktgjI5AJ7XDbUdjGkCKcbjdZ2MiQIpzuL0UR5+FjhXlEHb/DTGCJlQIkKIdbgPjrQFAineYPxqFpbSg4h3mxTh/MQFISQ4RxutEjHwESpvQpZIc5sJoB5BSHebBaNKELpXq0D5TveXfidEDJAOH1o2qYQQ6GTi0zFQtkpgNWTi0w2gOkKwc0uzRAGMGgGTm0AIjAJgyJ8vMIYrG34J/nxs3oUvZOUzDmCMCnSwdxkejUTfCK1OHsRjzASRzhzHPxlvLLHQsa4cIo3+gKitAyuEQZarjRvUiL0DK4lDT4cgNkDI5lHY4FtkBUi6HMBqXo+37+QFSPoeoUf3Kwdinpx1AopONzz4x/GwW46U7fssBNFwZ4OB89PE3B3Yfz0ajG8JhyoU5AX5odwsYXz8OTnyHJoYR6AGYAaP35f/zj2Neh3/tvtsL8FMXdl/z1/f5049DXofDxCgKWYC2GPf98zeQw2E4tPjmk11ocBjOTDAeMp+OHRpgDAB0ukn2xwAMO0yOxiBAp1SMHECJw2GagPHgRuTvXQ8J0bgPrz/oMAHjhdjfkIIRABQ6HKZx91cO0Okh6lsgQKnDKIwXsghcVQxGDFDuUI/xgf2oyT3/dVqM+9PwlQsdKjGCJvT9GcvfeB1GbxIT7VCDkQd46Vpm/vGlwHgQBqhzKMYImtDvJAnEjxCjBKDWoQxjEKBTIkYZQMbhM+gKBDGCJnQzy02JRvATOFkvOfkc7qFk8hxjBE3oODeKxggA/ru+9Xvsdwh/5KBffnHG/pe/m8KjeAEY8cUdyBxGYVQBdAIZCTcQiAHKHcKOuRejGqATj3Hv1nd+8Ncld6jECADi0AUYx9EYAqhzqMEIBj3ChQIe4/UGRknzoHIoxhgN0EkYjQDgSpVA51CGMQmgkwSj8BeldSjAyI9aKeoDQYzgOtardWqHoXt3u8ce1ZXqAMY5uojNwnmEQ3T7Hvj3h9V1OoDxlK8XjOp0MQ5x0ZpRTK012GEfa5z6xDmUlT1XFFloDRVdNuWrl0c6VGKMr7JqMO56c9dohwqMSZVy0OHYEDPgEe9QXMBOHe2QYWT7kCkORRgNRqwkGPkRqySHgmg0Ga4KYvRHoInDwFCE1ZBjACMc5Eh1CNcMTB8l+xYICLwMSCsM4YMRDhv3EYeopvrTliKHdT0PuZrfT07DOhQCdGowL+2+b9F7/xAAnPKPx4b6+ADgYeioQsXqNACgGw9EhFuotUkQGWAsVi8NAgyeVnnNWw4nCWOxcQshwODJobEnzUiw6diTFkskxmLjhyqAnzcvolEtNwYM7hQAosZYbBwfBRV8xOn+sdi7GOh9mmDDqPjfcu/T8JKkmtIALvlOFCthgiLCWON7baLsxN3fIMYq301UdRQCGGt8v1Tb2UONapXvCEd02CPKAuXe844rumhLOwXf1Y+uf6owlptvkVL8VGCMA+iUNmcmsYAtxFhu3lP3c9ds5h+G/JWbf9j9HNL25gF7MTqH3sygq7ncT/6v72g+/py5w/2sqdDxuhjTzxO6XdvkbPkzWfBv+ra8Ps3VKp/e1xj6p4vsGLe8TpRn1TZ+1kS9a30pl2zraL02dtm93tfco7wYq1g3kfpf+5IyLn9Zy/qlBBvVLtagpVzRWNE6wtT/WtCUBWNd63lThhSnsjXZyX5F0+rW1SeEsY+9EQhOsu9jfwsyjcYq9yghS4yZ9pl5Sd8uyGqnklr3CiKz7n+O/Z5SNwpayqRRrXjPLrLBaL7vmvEOwemZat1755FBilP7/oeU/Gysfg9LSsVouQ9pvs2dQaO6xb1khR35OCU0qmb7AefenTs6GhvZ05niMZrsy238DOQUh7GdvdUpEqPUYcEIXBWP8Y7DKHMIkpisTehYYJVLBqPIIZ+FGvQDtQLPxoXvfIHDegA6KTGGHVYF0EkVjSGH2+xGyKWp4gQcgo68dxbb1iTHCB3WFoGrEmNEDvkINKvEpEhYxeEd1gzQSZbisA63VolJkSRTZRzW2YSOJcDod9gEQKdgNPoclurIxymE0eOwIYBOGOPIYf1N6FgQ46bDyp+BnMDWCG9rf+7w80irBegEMMpUOAuViMcoUeUAnSL2CfrSS/0AnWIxNgHQSbVf15f8q5lUKz3GhgA6KaOxmQhclQZjcwCdQPd/A2DNSQyWDGOjAJ0EGBtIYrBCGJsG6AQz1eYBOvFLV6aspVCVmGjsBOCHDnzR2EEErmqEsckkBuuhZ4BOKxivDddSqEoPPQN0WrxOJpNX7yD4j37E6n+PSqfDoTWQQwAAAABJRU5ErkJggg=="></img></a>	
+                </div>
+            </div>
+    
+    <!--end contact section-->
+    </div> <!--closing of the page-container middle section div-->
+    
+    <div class="column-right">
+    </div>
+    
+    </div> <!--closing of page-container div-->
+    <!-- This closes the container-fluid div -->
+    </div>
+
+    <script src="application.js"></script>
+</body>
+</html>

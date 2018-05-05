@@ -1,0 +1,192 @@
+body {
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+      margin-bottom: 10px;
+    color: #696969;
+    font-size: 20px;
+    background-image: url("http://www.cns.nyu.edu/malab/illusionstoinference/thedress/img/old_mathematics.png");
+    /* position: relative; */
+    background-repeat: repeat;
+    /*padding-top: 100px;*/
+  }
+  
+  .circle-photo{
+      border-radius: 100%;
+      /*border-style: solid;
+      border-color: black;*/
+      border-width: 1px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .page-border {
+    border-width: 0px;
+    border-color: black;
+    border-style: solid;
+    padding: 0px;
+  }
+  
+  .header-text {
+      color: white;
+      padding-left: 30px;
+      padding-top: 8%;
+  }
+  
+  .name-spacing {
+      padding: 10px;
+  }
+  
+  .intro-style {
+      background: #696969;
+      padding: 20px;
+      box-shadow: 2px 2px 3px #888888;
+      margin-top: 20px;
+  }
+  
+  .body-style {
+      background: #C0C0C0;
+      box-shadow: 2px 2px 3px #888888;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      /*padding-bottom: 30px;*/
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .column-left {
+      background: #000077;
+      box-shadow: 2px 2px 3px #888888;
+  }
+  
+  .column-right {
+      background: #000077;
+      box-shadow: -2px 2px 3px #888888;
+  }
+  
+  .divider-line {
+      margin: 10px auto 30px;
+      padding: 0;
+      max-width: 512px;
+      border: 0;
+      border-top: solid 2px;
+      text-align: center;
+      border-color: #696969;
+  }
+  
+  .container {
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      /*grid-template-rows: repeat(2, 100px);*/
+      text-align: center;
+  }
+  
+  .container > div > a > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .grid-container {
+      display: grid;
+      grid-gap: 5px;
+      margin: auto;
+      margin: 0 auto;
+      padding: 3%;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(2, 1fr)
+  }
+  
+  .grid-banner {
+      display: grid;
+      grid gap: 3px;
+      margin: 0 auto;
+      grid-template-rows: 1;
+      grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+      padding-top: 5px;
+  }
+  
+  .page-container {
+      display: grid;
+      grid-gap: 1%;
+      grid-template-rows: 1;
+      grid-template-columns: 1fr 18fr 1fr;
+  }
+  
+  .contact-box {
+      margin-top: 20px;
+      background: #696969;
+      box-shadow: 2px 2px 3px #888888;
+      padding-top: 10px;
+  }
+  
+  .contact-me {
+      color: white;
+  }
+  
+  .message {
+      color: white;
+      font-size: 20px;
+  }
+  
+  .image-logo {
+      width: 50px;
+      border-radius: 50%;
+  }
+  
+  .banner {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 70px;
+      background-color: #0099FF;
+      box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .banner-content {
+      width: 80%;
+      margin: 0 auto;
+      padding: 10px;
+      color: white;
+  }
+  
+  .button {
+      background-color: #0099FF;
+      border: 0;
+      color: white;
+      width: 100px;
+      border-radius: 10%;
+  }
+  
+  .button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      background-color: #0088FF;
+      color: white;
+      border-radius: 10%;
+  }
+  
+  .button2 {
+      background-color: #0099FF;
+      border: 0;
+      color: white;
+      width: 50px;
+  }
+  
+  .button2:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      background-color: #0088FF;
+      color: white;
+      border-radius: 10%;
+  }
+  
+  .portfolio-images {
+      border-radius: 3%;  
+  }
+
+  .portfolio-images:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
